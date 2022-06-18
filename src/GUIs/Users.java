@@ -29,9 +29,10 @@ public class Users {
          * @param high the highscore of the player
          */
         public Users(String username,String password, int high){
-            super();
-            this.username=username;
-            this.password=password;
+            this();
+            this.username = username;
+            this.password = password;
+            this.highScore = high;
         }
         
         /**

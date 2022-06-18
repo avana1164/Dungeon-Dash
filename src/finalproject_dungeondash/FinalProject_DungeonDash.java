@@ -4,8 +4,6 @@ Avinash Anand
 package finalproject_dungeondash;
 
 import GUIs.LoginWindow;
-import java.io.File;
-import java.io.PrintWriter;
 import javax.swing.JFrame;
 
 /**
@@ -16,12 +14,9 @@ public class FinalProject_DungeonDash extends JFrame {
 // instantiat all nessisary variables 
     public static LoginWindow login;   
     public static void main(String[] args) {
-// create a new jframe window  
-        
+// create a new jframe window   
         login = new LoginWindow();// create a new login window
-        login.setVisible(true);// set the window to visible 
-        
-        
+        login.setVisible(true);// set the window to visible  
     }
 
 }

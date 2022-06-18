@@ -385,7 +385,7 @@ public class LoginWindow extends javax.swing.JFrame implements Serializable{
             if (placement == -1) {            
                 //create a new user, regester them and log them into the game 
                 currentUser = new Users(userName, password, 0);               
-                registeredUsers.add(currentUser);
+                registeredUsers.add(currentUser);               
                 writeFile();               
                 logIntoGame();
             } else {// otherwies print an error messgage 
