@@ -14,11 +14,6 @@ import finalproject_dungeondash.Entity;
  */
 public class Skeleton extends Entity {
 // instatntiate nessisary variables 
-
-    int x;
-    int y;
-    int randomInt;
-
     /**
      * constructs a new skeleton
      *

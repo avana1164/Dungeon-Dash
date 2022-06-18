@@ -9,10 +9,6 @@ import finalproject_dungeondash.DrawingSurface;
 import finalproject_dungeondash.Entity;
 
 public class Boss extends Entity{
-    // instatntiate nessisary variables 
-    int x;
-    int y;
-    int randomInt;
 /**
  * constructs a new boss
  * @param ds the drawing surface variables 

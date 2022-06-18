@@ -11,13 +11,7 @@ import finalproject_dungeondash.Entity;
  *
  * @author matth
  */
-public class BigDemon extends Entity {
-// instatntiate nessisary variables 
-
-    int x;
-    int y;
-    int randomInt;
-
+public class BigDemon extends Entity { 
     /**
      * constructs a new demon
      *

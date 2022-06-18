@@ -28,7 +28,7 @@ public class LoginWindow extends javax.swing.JFrame implements Serializable{
         initComponents();
         FileInputStream in;
         try {
-            in = new FileInputStream(System.getProperty("user.dir") + "/saves/saves");
+            in = new FileInputStream(System.getProperty("user.dir") + "/src/GUIs/TextFiles/saves");
             readFile(in);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LoginWindow.class.getName()).log(Level.SEVERE, null, ex);
@@ -47,7 +47,7 @@ public class LoginWindow extends javax.swing.JFrame implements Serializable{
         String toWrite = "";
         FileOutputStream out;
         try {         
-            out = new FileOutputStream(System.getProperty("user.dir") + "/saves/saves");          
+            out = new FileOutputStream(System.getProperty("user.dir") + "/src/GUIs/TextFiles/saves");          
             PrintWriter p = new PrintWriter(out, true);
             // create a writer to write to the file
             //FileWriter writer = new FileWriter(in);

@@ -12,10 +12,6 @@ import finalproject_dungeondash.DrawingSurface;
  * @author anusoumyaganapathy
  */
 public class BigZombie extends Entity {
-// instatntiate nessisary variables 
-    int x;
-    int y;
-    int randomInt;
 /**
  * constructs a new boss
  * @param ds the drawing surface variables 

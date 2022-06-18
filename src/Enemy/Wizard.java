@@ -10,9 +10,6 @@ import finalproject_dungeondash.Entity;
 
 public class Wizard extends Entity {
 // instatntiate nessisary variables
-    int x;
-    int y;
-    int randomInt;
 /**
  * constructs a new wizard
  * @param ds the drawing surface variables 
