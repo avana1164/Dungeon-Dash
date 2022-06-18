@@ -55,7 +55,7 @@ public class GameOverWindow extends javax.swing.JFrame {
     private static void clearFile(){
         FileOutputStream out;
         try{
-            out = new FileOutputStream(System.getProperty("user.dir") + "/src/GUIs/TextFiles/saves");
+            out = new FileOutputStream(System.getProperty("user.dir") + "/saves/saves");
             PrintWriter p = new PrintWriter(out);
             p.print("");
             p.close();
