@@ -96,6 +96,7 @@ public class UserInterface {
                 gameOver = new GameOverWindow();
             }
             gameOver.getScore();
+            gameOver.setResizable(false);
             gameOver.setVisible(true);
         }
     }

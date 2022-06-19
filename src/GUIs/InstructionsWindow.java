@@ -16,6 +16,7 @@ public class InstructionsWindow extends javax.swing.JFrame {
     
     public InstructionsWindow(MenuWindow m) {
         initComponents();
+        txtAreaInstructions.setEditable(false);
         menu = m; //save menu screen in variable
     }
 
@@ -91,7 +92,7 @@ public class InstructionsWindow extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
-        this.setVisible(false); //make menu visible
+        this.setVisible(false); //make menu visible      
         menu.setVisible(true); //make instructions invisible
     }//GEN-LAST:event_btnBackActionPerformed
 

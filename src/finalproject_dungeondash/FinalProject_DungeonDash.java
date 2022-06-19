@@ -16,7 +16,9 @@ public class FinalProject_DungeonDash extends JFrame {
     public static void main(String[] args) {
 // create a new jframe window   
         login = new LoginWindow();// create a new login window
+        login.setResizable(false);
         login.setVisible(true);// set the window to visible  
+        
     }
 
 }

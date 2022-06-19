@@ -151,6 +151,7 @@ public class MenuWindow extends javax.swing.JFrame {
         this.setVisible(false);
 // order the users on the leaderboard and make it visible
         leaderboard.orderUsers();
+        leaderboard.setResizable(false);
         leaderboard.setVisible(true);
 
 
@@ -163,6 +164,7 @@ public class MenuWindow extends javax.swing.JFrame {
         }
         // make the current window invisibleand make the inastructions window visible 
         this.setVisible(false);
+        instructions.setResizable(false);
         instructions.setVisible(true);
     }//GEN-LAST:event_btnInstructionsActionPerformed
 

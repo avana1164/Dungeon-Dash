@@ -108,6 +108,7 @@ public class LoginWindow extends javax.swing.JFrame implements Serializable{
             menu = new MenuWindow(this);
         }
         // allow the user to se the menu window and close the current window 
+        menu.setResizable(false);
         menu.setVisible(true);
         this.setVisible(false);
         // invoke the reset inputs window
