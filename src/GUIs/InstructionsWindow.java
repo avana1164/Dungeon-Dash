@@ -16,6 +16,7 @@ public class InstructionsWindow extends javax.swing.JFrame {
     
     public InstructionsWindow(MenuWindow m) {
         initComponents();
+        this.setLocationRelativeTo(null);
         txtAreaInstructions.setEditable(false);
         menu = m; //save menu screen in variable
     }

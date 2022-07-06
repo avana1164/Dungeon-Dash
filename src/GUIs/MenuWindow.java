@@ -24,11 +24,10 @@ public class MenuWindow extends javax.swing.JFrame {
     public MenuWindow(LoginWindow l) {
         initComponents();
         login = l;
-        
-
+        this.setLocationRelativeTo(null);
     }
 /**
- * displays the walcome messsage
+ * displays the welcome messsage
  */
     public void displayWelcome() {
         lblUserName.setText("Welcome " + LoginWindow.currentUser.getUsername() + "!");
@@ -190,6 +189,7 @@ public class MenuWindow extends javax.swing.JFrame {
         window.setVisible(true);
         gamePanel.gameState = 0;
         gamePanel.setupGame();
+        
 
         gamePanel.startGameThread();
     }//GEN-LAST:event_btnStartActionPerformed

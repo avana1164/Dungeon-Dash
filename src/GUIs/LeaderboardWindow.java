@@ -18,6 +18,7 @@ public class LeaderboardWindow extends javax.swing.JFrame {
 
     public LeaderboardWindow(MenuWindow m) {
         initComponents();
+        this.setLocationRelativeTo(null);
         txtAreaLeaderboard.setEditable(false);
         menu = m; //save menu window
         

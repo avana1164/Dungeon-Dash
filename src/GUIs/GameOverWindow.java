@@ -18,6 +18,7 @@ public class GameOverWindow extends javax.swing.JFrame {
      */
     public GameOverWindow() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
     
     /**
