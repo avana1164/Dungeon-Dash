@@ -40,6 +40,7 @@ public class GameOverWindow extends javax.swing.JFrame {
         
         
         if (MenuWindow.gamePanel.enemies[numEnemies - 1].dead == true) { //if player kills boss(last enemy in enemy array)
+            score += 10;
             score += (MenuWindow.gamePanel.player.life / 2); //get a point for each full heart
             score += (int) (0.5 * score); //get a 1.5 times multiplier
         }

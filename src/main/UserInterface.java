@@ -50,7 +50,7 @@ public class UserInterface {
     public void gameWon() {
         g2.setColor(Color.GREEN);
         g2.setFont(winFont);
-        g2.drawString("YOU KILLED THE BOSS! PRESS 'C' TO CONTINUE", 0, 350);
+        g2.drawString("YOU KILLED THE BOSS! PRESS 'C' TO CONTINUE", 70, 350);
 
     }
     
