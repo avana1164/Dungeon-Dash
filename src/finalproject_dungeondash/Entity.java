@@ -181,10 +181,10 @@ public class Entity {
         int screenY = worldY - MenuWindow.gamePanel.player.getWorldY() + MenuWindow.gamePanel.player.screenY;
 
         //if entity is in the camera frame, then draw it
-        if (worldX + DrawingSurface.tileSize > MenuWindow.gamePanel.player.getWorldX() - MenuWindow.gamePanel.player.screenX
-                && worldX - DrawingSurface.tileSize < MenuWindow.gamePanel.player.getWorldX() + MenuWindow.gamePanel.player.screenX
-                && worldY + DrawingSurface.tileSize > MenuWindow.gamePanel.player.getWorldY() - MenuWindow.gamePanel.player.screenY
-                && worldY - DrawingSurface.tileSize < MenuWindow.gamePanel.player.getWorldY() + MenuWindow.gamePanel.player.screenY) {
+        if (worldX + sizeX > MenuWindow.gamePanel.player.getWorldX() - MenuWindow.gamePanel.player.screenX
+                && worldX - sizeX < MenuWindow.gamePanel.player.getWorldX() + MenuWindow.gamePanel.player.screenX
+                && worldY + sizeY > MenuWindow.gamePanel.player.getWorldY() - MenuWindow.gamePanel.player.screenY
+                && worldY - sizeY < MenuWindow.gamePanel.player.getWorldY() + MenuWindow.gamePanel.player.screenY) {
 
             //depending on current sprite, draw specific image
             if (spriteNum == 1) {
