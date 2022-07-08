@@ -80,7 +80,7 @@ public class UserInterface {
         g2.setColor(Color.WHITE);
 
         if (ds.gameState == ds.PAUSESTATE) {
-            g2.drawString("GAME  PAUSED:  PRESS  'P'  TO  CONTINUE", 80, 375); //The text is displayed to the user
+            g2.drawString("GAME  PAUSED:  PRESS  'P'  TO  CONTINUE", 130, 375); //The text is displayed to the user
         } else if (ds.gameState == ds.PLAYSTATE) {
             drawPlayerLife(g2); //if the game isn't paused, draw the life 
         } else if (ds.gameState == ds.MSGSTATE) {
