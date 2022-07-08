@@ -2,6 +2,21 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/UserInterface.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/InstructionsWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/LeaderboardWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/KeyHandler.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/InstructionsBackground.jpg</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/MenuWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/TextFiles/OpenWorld1.txt</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/Background%20ics.jpg</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/ICS4UBackgroundDungeon.jpg</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/CollisionChecker.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/GameOverWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/EventHandler.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/Enemy/BigDemon.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/UtilityTool.java</file>
+        </group>
     </open-files>
 </project-private>

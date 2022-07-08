@@ -74,6 +74,25 @@ public class Entity {
         attackArea = new Rectangle(0, 0, 0, 0);
         enemyDamage = 1;
         dead = false;
+        direction = "left";
+        spriteDirection = 'l';
+        generateDirection();
+    }
+
+    protected void generateDirection() {
+        int randomInt = (int) (Math.random() * 4 + 1); //generate random number from 1 to 4(inclusive) to determine which of 4 direcitons to travel
+
+        if (randomInt == 1) {
+            direction = "up";
+        } else if (randomInt == 2) {
+            direction = "down";
+        } else if (randomInt == 3) {
+            direction = "left";
+            spriteDirection = 'l';
+        } else {
+            direction = "right";
+            spriteDirection = 'r';
+        }
     }
 
     /**
@@ -82,19 +101,7 @@ public class Entity {
     public void setAction() {
         actionLockCounter++; //counter to change enemy direction in intervals
         if (actionLockCounter == 240) { //at 4 seconds
-            int randomInt = (int) (Math.random() * 4 + 1); //generate random number from 1 to 4(inclusive) to determine which of 4 direcitons to travel
-
-            if (randomInt == 1) {
-                direction = "up";
-            } else if (randomInt == 2) {
-                direction = "down";
-            } else if (randomInt == 3) {
-                direction = "left";
-                spriteDirection = 'l';
-            } else {
-                direction = "right";
-                spriteDirection = 'r';
-            }
+            generateDirection();
             actionLockCounter = 0; //reset counter to wait anotehr 4 seconds
         }
     }
@@ -206,16 +213,17 @@ public class Entity {
         }
 
     }
-    
+
     /*
     abstract method to draw sprite left
-    */
+     */
     public void drawLeft() {
 
     }
-    
+
     /**
      * Setup sprite for use
+     *
      * @param imagePath - image path as string
      * @param width - width of image in pixels
      * @param height - height of image in pixels

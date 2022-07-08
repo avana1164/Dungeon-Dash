@@ -9,12 +9,12 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
-
 /**
  *
  * @author jason
  */
 public class musicClass {
+
     public static void playMusic(String musicLocation) {
         try {//create the "try" of the try catch
             File musicPath = new File(musicLocation);// create a file object containing the file path of"musicLocation"
@@ -28,9 +28,10 @@ public class musicClass {
                 System.out.println("Can't Find File");// display that the file cannot be found
             }
         } catch (Exception ex) {//create the "catch" of the try catch
-            System.out.println("Error:"+ex);
+            System.out.println("Error:" + ex);
         }
     }
+
     public static void playMusicNonLoop(String musicLocation) {
         try {//create the "try" of the try catch
             File musicPath = new File(musicLocation);// create a file object containing the file path of"musicLocation"
@@ -39,16 +40,18 @@ public class musicClass {
                 Clip clip = AudioSystem.getClip();// get the audio stream from the audio input object 
                 clip.open(audioInput);//open the audio clip
                 clip.start();//starts the audio
-                clip.wait(100); //not sure what number means
-                audioInput. close();
-                clip.close();
+
+                clip.wait(1); //not sure what number means
+                audioInput.close();
+
                 clip.stop();
-                
+                clip.close();
+
             } else {//otherwise
                 System.out.println("Can't Find File");// display that the file cannot be found
             }
         } catch (Exception ex) {//create the "catch" of the try catch
-            System.out.println("Error:"+ex);
+            System.out.println("Error:" + ex);
         }
     }
 

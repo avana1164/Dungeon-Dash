@@ -14,6 +14,7 @@ import finalproject_dungeondash.Entity;
  */
 public class Skeleton extends Entity {
 // instatntiate nessisary variables 
+
     /**
      * constructs a new skeleton
      *
@@ -27,9 +28,7 @@ public class Skeleton extends Entity {
         life = maxLife;
         sizeX = 64;
         sizeY = 64;
-        direction = "up";
         speed = 4;
-        spriteDirection = 'l';
         solidArea.x = 16;
         solidArea.y = 44;
         solidArea.width = 32;
@@ -49,6 +48,14 @@ public class Skeleton extends Entity {
         idle2 = setup("/meleeEnemySprites/skelet_idle_anim_f1", sizeX, sizeY);
         idle3 = setup("/meleeEnemySprites/skelet_idle_anim_f2", sizeX, sizeY);
         idle4 = setup("/meleeEnemySprites/skelet_idle_anim_f3", sizeX, sizeY);
+    }
+
+    public void setAction() {
+        actionLockCounter++; //counter to change enemy direction in intervals
+        if (actionLockCounter == 120) { //at 2 seconds
+            generateDirection();
+            actionLockCounter = 0; //reset counter to wait anotehr 4 seconds
+        }
     }
 
 }

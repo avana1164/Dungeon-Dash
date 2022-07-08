@@ -21,9 +21,7 @@ public class Boss extends Entity{
         sizeX = 96;
         sizeY = 168;
         life = maxLife;
-        direction = "left";
         speed = 2;
-        spriteDirection = 'l';
         solidArea.x = 21;
         solidArea.y = 132;
         solidArea.width = 60;

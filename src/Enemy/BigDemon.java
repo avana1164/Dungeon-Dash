@@ -23,11 +23,9 @@ public class BigDemon extends Entity {
         enemyDamage = 2;
         maxLife = 3;
         life = maxLife;
-        direction = "left";
         speed = 2;
         sizeX = 64;
         sizeY = 72;
-        spriteDirection = 'l';
         solidArea.x = 16;
         solidArea.y = 48;
         solidArea.width = 32;

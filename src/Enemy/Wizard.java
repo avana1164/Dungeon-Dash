@@ -22,9 +22,7 @@ public class Wizard extends Entity {
         sizeX = 48;
         sizeY = 84;
         life = maxLife;
-        direction = "up";
         speed = 2;
-        spriteDirection = 'l';
         solidArea.x = 9;
         solidArea.y = 69;
         solidArea.width = 33;

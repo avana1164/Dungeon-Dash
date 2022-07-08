@@ -7,15 +7,18 @@ package Enemy;
 
 import finalproject_dungeondash.Entity;
 import finalproject_dungeondash.DrawingSurface;
+
 /**
  *
  * @author anusoumyaganapathy
  */
 public class BigZombie extends Entity {
-/**
- * constructs a new boss
- * @param ds the drawing surface variables 
- */
+
+    /**
+     * constructs a new boss
+     *
+     * @param ds the drawing surface variables
+     */
     public BigZombie(DrawingSurface ds) {
         super(ds);
         //set all atributes of the big zombie to its required values
@@ -24,8 +27,6 @@ public class BigZombie extends Entity {
         sizeX = 64;
         sizeY = 68;
         speed = 1;
-        direction = "left";
-        spriteDirection = 'l';
         solidArea.x = 14;
         solidArea.y = 50;
         solidArea.width = 36;
@@ -36,9 +37,9 @@ public class BigZombie extends Entity {
         getSprites();
     }
 
-/**
- * load the images into the file 
- */
+    /**
+     * load the images into the file
+     */
     public void getSprites() {
         // load all 4 sprites into netbeans 
         idle1 = setup("/meleeEnemySprites/big_zombie_idle_anim_f0", sizeX, sizeY);
@@ -47,6 +48,12 @@ public class BigZombie extends Entity {
         idle4 = setup("/meleeEnemySprites/big_zombie_idle_anim_f3", sizeX, sizeY);
     }
 
-
+    public void setAction() {
+        actionLockCounter++; //counter to change enemy direction in intervals
+        if (actionLockCounter == 420) { //at 7 seconds
+            generateDirection();
+            actionLockCounter = 0; //reset counter to wait anotehr 4 seconds
+        }
+    }
 
 }
