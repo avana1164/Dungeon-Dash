@@ -3,20 +3,41 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/UserInterface.java</file>
-            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/InstructionsWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/Users.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/finalproject_dungeondash/musicClass.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/backgroundTiles/pathway3.9.png</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/LeaderboardWindow.java</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/KeyHandler.java</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/InstructionsBackground.jpg</file>
-            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/MenuWindow.java</file>
-            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/TextFiles/OpenWorld1.txt</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/Enemy/BigZombie.java</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/Background%20ics.jpg</file>
-            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/ICS4UBackgroundDungeon.jpg</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/finalproject_dungeondash/Player.java</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/CollisionChecker.java</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/GameOverWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/Enemy/Boss.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/Enemy/Wizard.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/backgroundTiles/lilypad.png</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/UserInterface.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/backgroundTiles/Water3.9.png</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/InstructionsWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/finalproject_dungeondash/DrawingSurface.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/finalproject_dungeondash/Tile.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/ICS4UGameOverBackground.jpg</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/finalproject_dungeondash/TileManager.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/MenuWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/Enemy/Skeleton.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/TextFiles/OpenWorld1.txt</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/ICS4UBackgroundDungeon.jpg</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/finalproject_dungeondash/AssetSetter.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/finalproject_dungeondash/Entity.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/finalproject_dungeondash/FinalProject_DungeonDash.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/backgroundTiles/grasstile.jpg</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/EventHandler.java</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/Enemy/BigDemon.java</file>
             <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/main/UtilityTool.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/backgroundTiles/floorNormal.png</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/GUIs/LoginWindow.java</file>
+            <file>file:/C:/Users/matth/OneDrive/Documents/Matthew%20Programming/ICS4U%20Final%20Project%20Extension/Dungeon-Dash/src/backgroundTiles/treeSprite.png</file>
         </group>
     </open-files>
 </project-private>
